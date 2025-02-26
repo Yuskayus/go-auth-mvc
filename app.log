@@ -1,0 +1,4 @@
+{"level":"info","msg":"Starting the application...","time":"2025-02-26T13:14:00+07:00"}
+{"level":"info","msg":"Database connected successfully","time":"2025-02-26T13:14:00+07:00"}
+{"level":"info","msg":"Server running on port 9292","time":"2025-02-26T13:14:00+07:00"}
+{"level":"info","msg":"User registered successfully: test1@example.com","time":"2025-02-26T13:15:12+07:00"}

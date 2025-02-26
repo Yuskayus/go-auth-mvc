@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"go-auth-mvc/config"
 	"go-auth-mvc/models"
 	"go-auth-mvc/services"
 	"net/http"
@@ -20,6 +21,7 @@ func Register(c *gin.Context) {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Registration failed"})
 		return
 	}
+	config.Log.Info("User registered successfully: ", user.Email)
 	c.JSON(http.StatusOK, gin.H{"message": "User registered successfully"})
 }
 
